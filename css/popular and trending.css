@@ -1,0 +1,113 @@
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.section-1 nav{
+    display:flex;
+    justify-content:space-evenly;
+    background:#111;
+    padding:6px;
+    position: relative;
+    z-index: 2;
+}
+.section-1 nav h3{
+    font-family:"Odibee Sans", Arial, sans-serif;
+    color:rgb(238, 238, 238);
+    padding-top: 6px;
+    text-transform:uppercase;
+}
+.section-1 nav ul{
+    list-style:none;
+    padding:8px 0 0 0;
+}
+.section-1 nav ul li{
+    margin-right:15px;
+    display:inline-block;
+}
+.section-1 nav ul li a{
+    color:#EEE;
+    text-transform:uppercase;
+    transition:all .5s ease-in-out; 
+}
+.section-1 nav ul li a:hover{
+    color:rgb(8, 72, 190);
+    text-decoration:none;
+}
+
+
+.parent-container{
+    padding:40px;
+}
+.parent-container h1{
+    padding:20px;
+    font-family:"Odibee Sans", Arial, sans-serif;
+}
+.parent-container .popular-and-trending-container{
+    display: flex;
+    justify-content:space-evenly;
+}
+.parent-container .popular-and-trending-container img{
+    width: 500px;
+    height: 500px;
+    border-radius:32px;
+    mix-blend-mode:multiply;
+}
+.parent-container .popular-and-trending-container div p{
+    text-transform:capitalize;
+    font-family:'KoHo',Arial,sans-serif;
+    font-weight:bold;
+}
+.parent-container .popular-and-trending-container div .progress{
+    width: 400px;
+    margin-bottom: 10px;
+    background-color: #DDD;
+}
+.parent-container .popular-and-trending-container div .progress{
+    width: 400px;
+}
+.parent-container .popular-and-trending-container div .progress .progress-1{
+    width: 18.8%
+}
+.parent-container .popular-and-trending-container div .progress .progress-2{
+    width: 3.2%
+}
+.parent-container .popular-and-trending-container div .progress .progress-3{
+    width: 7.6%
+}
+.parent-container .popular-and-trending-container div .progress .progress-4{
+    width: 4.2%
+}
+.parent-container .popular-and-trending-container div .progress .progress-5{
+    width: 16.1%
+}
+.parent-container .popular-and-trending-container div .progress .progress-6{
+    width: 5.2%
+}
+.parent-container .popular-and-trending-container div .progress .progress-7{
+    width: 10.7%
+}
+.parent-container .popular-and-trending-container div .progress .progress-8{
+    width: 8.9%
+}
+.parent-container .popular-and-trending-container div .progress .progress-9{
+    width: 7.3%
+}
+.parent-container .popular-and-trending-container div .progress .progress-10{
+    width: 6.5%
+}
+.parent-container .popular-and-trending-container div .progress .progress-11{
+    width: 1.5%
+}
+.parent-container .popular-and-trending-container div .progress .progress-12{
+    width: 1.5%
+}
+.parent-container .popular-and-trending-container div .progress .progress-13{
+    width: 8%
+}

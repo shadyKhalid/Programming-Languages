@@ -1,0 +1,194 @@
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.section-1{
+    min-height: 80vh;
+    background:url("../img/intro-background.jpeg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: relative;
+}
+.section-1::after{
+    position:absolute;
+    background:rgb(0, 0, 0, 0.6);
+    min-width: 100%;
+    min-height:100%;
+    content:"";
+    left:0;
+    top: 0;
+}
+.section-1 nav{
+    display:flex;
+    justify-content:space-evenly;
+    background:#111;
+    padding:6px;
+    position: relative;
+    z-index: 2;
+}
+.section-1 nav h3{
+    font-family:"Odibee Sans", Arial, sans-serif;
+    color:rgb(238, 238, 238);
+    padding-top: 6px;
+    text-transform:uppercase;
+}
+.section-1 nav ul{
+    list-style:none;
+    padding:8px 0 0 0;
+}
+.section-1 nav ul li{
+    margin-right:15px;
+    display:inline-block;
+}
+.section-1 nav ul li a{
+    color:#EEE;
+    text-transform:uppercase;
+    transition:all .5s ease-in-out; 
+}
+.section-1 nav ul li a:hover{
+    color:rgb(8, 72, 190);
+    text-decoration:none;
+}
+.section-1 .intro{
+    position: relative;
+    z-index: 2;
+    text-align:center;
+    padding-top: 80px;;
+}
+.section-1 .intro h1{
+    color:#EEE;
+    text-transform:capitalize;
+    font-family:Tahoma, Arial, sans-serif;
+    border-bottom:2px double #EEE;
+    width: 515px;
+    margin: 0 auto;
+    padding-bottom:5px;
+}
+.section-1 .intro p{
+    color: #EEE;
+    text-transform: capitalize;
+    font-family: "KoHo",Tahoma, Arial, sans-serif;
+    width: 515px;
+    margin: 0 auto;
+    line-height:2.5;
+    font-size:18px;
+}
+
+.section-2{
+    min-height: 70vh;
+    padding:10px;;
+}
+.section-2 h2{
+    margin: 0 auto;
+    padding-top:30px;
+    padding-bottom:15px;
+    text-align: center;
+    text-transform:capitalize;
+    font-family:"Odibee Sans", Arial, sans-serif;
+    font-size:40px;
+    border-bottom: 3px solid #222;
+    width: 500px;
+}
+.section-2 ol{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section-2 ol div:first-of-type{
+    margin-left: 186px;
+}
+.section-2 ol div li{
+    font-size:24px;
+    font-family:"KoHo", Arial, sans-serif;
+    margin-bottom:15px;
+    text-transform:capitalize
+}
+
+.section-3{
+    background:#222;
+    min-height:70vh;
+}
+.section-3 h2{
+    margin: 0 auto;
+    padding-top:40px;
+    padding-bottom:15px;
+    text-align: center;
+    text-transform:capitalize;
+    font-family:"Odibee Sans", Arial, sans-serif;
+    font-size:40px;
+    border-bottom: 3px solid #EEE;
+    width: 500px;
+    color:#EEE
+}
+.section-3 ol{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section-3 ol div:first-of-type{
+    margin-left: 186px;
+}
+.section-3 ol div li{
+    font-size:24px;
+    font-family:"KoHo", Arial, sans-serif;
+    margin-bottom:15px;
+    color:#EEE;
+    text-transform:capitalize;
+}
+
+.section-4{
+    min-height:70vh;
+}
+.section-4 h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom:2px solid #222;
+    width: 500px;
+    margin: 0 auto 30px;
+}
+.section-4 .levels{
+    mix-blend-mode: multiply;
+    width: 390px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    border-radius:10px;
+}
+.section-5{
+    min-height:70vh;
+    background:#222
+}
+.section-5 h2{
+    margin: 0 auto;
+    text-align: center;
+    color: #EEE;
+    font-family: "Odibee Sans", Arial, sans-serif;
+    text-transform:uppercase;
+    padding: 40px 0;
+}
+.section-5 table{
+    border: 1px solid #EEE;
+    margin: 0 auto;
+}
+th:first-of-type{
+    width: 150px;
+}
+th:nth-of-type(2){
+    width: 400px;
+}
+tr, th, td{
+    padding:8px;
+    color: #EEE;
+    text-align: center;
+    border: 1px solid #EEE;
+}

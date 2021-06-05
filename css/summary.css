@@ -1,0 +1,42 @@
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.section-1 nav{
+    display:flex;
+    justify-content:space-evenly;
+    background:#111;
+    padding:6px;
+    position: relative;
+    z-index: 2;
+}
+.section-1 nav h3{
+    font-family:"Odibee Sans", Arial, sans-serif;
+    color:rgb(238, 238, 238);
+    padding-top: 6px;
+    text-transform:uppercase;
+}
+.section-1 nav ul{
+    list-style:none;
+    padding:8px 0 0 0;
+}
+.section-1 nav ul li{
+    margin-right:15px;
+    display:inline-block;
+}
+.section-1 nav ul li a{
+    color:#EEE;
+    text-transform:uppercase;
+    transition:all .5s ease-in-out; 
+}
+.section-1 nav ul li a:hover{
+    color:rgb(8, 72, 190);
+    text-decoration:none;
+}
