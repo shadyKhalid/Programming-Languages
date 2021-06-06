@@ -253,12 +253,14 @@ ul li .responsive-btn{
     text-align: center;
     color: #EEE;
     font-family: "Odibee Sans", Arial, sans-serif;
-    text-transform:uppercase;
-    padding: 40px 0;
+    text-transform: uppercase;
+    padding: 40px 0 10px;
+    width: 288px;
+    border-bottom: 2px solid #EEE;
 }
 .section-5 table{
     border: 1px solid #EEE;
-    margin: 0 auto;
+    margin: 30px auto 0;
 }
 th:first-of-type{
     width: 150px;
